@@ -1,53 +1,45 @@
-![Banner](.github/stbl.jpg)
+![Banner](.git/stbl.jpg)
 
-<h1 align="center">Blockscout</h1>
-<p align="center">Blockchain Explorer for inspecting and analyzing EVM Chains.</p>
+<h1 align="center">STBL Explorer</h1>
+<p align="center">基于 Blockscout 开发的 STBL Layer1 区块链浏览器</p>
 <div align="center">
-
-[![Blockscout](https://github.com/blockscout/blockscout/actions/workflows/config.yml/badge.svg)](https://github.com/blockscout/blockscout/actions)
-[![Discord](https://dcbadge.vercel.app/api/server/blockscout?style=flat)](https://discord.gg/blockscout)
-
 </div>
 
+---
 
-Blockscout provides a comprehensive, easy-to-use interface for users to view, confirm, and inspect transactions on EVM (Ethereum Virtual Machine) blockchains. This includes Ethereum Mainnet, Ethereum Classic, Optimism, Gnosis Chain and many other **Ethereum testnets, private networks, L2s and sidechains**.
+## 项目简介
 
-See our [project documentation](https://docs.blockscout.com/) for detailed information and setup instructions.
+STBL Explorer 是基于 Blockscout 开发的区块链浏览器，专为 STBL Layer1 区块链设计。STBL Layer1 是由 STBL Foundation（稳定币基金会）发起的 Web3 项目，致力于打造一个高 TPS、高度去中心化、EVM 兼容的独立 Layer1 公链，作为人民币稳定币的流动层。
 
-For questions, comments and feature requests see the [discussions section](https://github.com/blockscout/blockscout/discussions) or via [Discord](https://discord.com/invite/blockscout).
+## 技术特性
 
-## About Blockscout
+- **基于 Blockscout**：继承了 Blockscout 的强大区块链数据分析与可视化能力。
+- **EVM 兼容**：支持以太坊生态的智能合约与工具。
+- **高 TPS & 去中心化**：计划募集最多 1000 台服务器作为验证节点，提升网络性能与安全性。
+- **原生代币 STBL**：公链原生代币总量 100 亿，可用于支付 gas 费与参与生态激励。
+- **稳定币支持**：STBL 公链将作为人民币稳定币的发行与流通基础，确保每一枚稳定币都有真实资产支撑。
 
-Blockscout allows users to search transactions, view accounts and balances, verify and interact with smart contracts and view and interact with applications on the Ethereum network including many forks, sidechains, L2s and testnets.
+## 参与方式
 
-Blockscout is an open-source alternative to centralized, closed source block explorers such as Etherscan, Etherchain and others.  As Ethereum sidechains and L2s continue to proliferate in both private and public settings, transparent, open-source tools are needed to analyze and validate all transactions.
+- 欢迎社区成员借用闲置服务器，参与 Layer1 网络建设。根据验证者在线时长，定期发放 STBL 代币奖励。
+- 服务器募集表单：[Google 表单链接](https://docs.google.com/forms/d/1yvQ-SRGMuKwI9CKaXtepRbtQYsHS8MqxEf9D8RbcWZI/edit)
 
-## Supported Projects
+## 未来规划
 
-Blockscout currently supports several hundred chains and rollups throughout the greater blockchain ecosystem. Ethereum, Cosmos, Polkadot, Avalanche, Near and many others include Blockscout integrations. A comprehensive list is available at [chains.blockscout.com](https://chains.blockscout.com). If your project is not listed, contact the team in [Discord](https://discord.com/invite/blockscout).
+1. 服务器节点去中心化，定期奖励原生代币。
+2. 部署独立 Layer1 区块链，承载人民币稳定币。
+3. STBL 代币上线 Cetus 交易所，可 1:1 兑换为公链原生代币，兑换后代币永久销毁。
+4. 寻找 VC 投资，推动稳定币合规发行，接受机构审计。
+5. 推广公链+稳定币支付模式，用户可质押稳定币获得 STBL 代币奖励，实现高于传统支付的收益。
 
-## Getting Started
+---
 
-See the [project documentation](https://docs.blockscout.com/) for instructions:
+## 开发与部署
 
-- [Manual deployment](https://docs.blockscout.com/for-developers/deployment/manual-deployment-guide)
-- [Docker-compose deployment](https://docs.blockscout.com/for-developers/deployment/docker-compose-deployment)
-- [Kubernetes deployment](https://docs.blockscout.com/for-developers/deployment/kubernetes-deployment)
-- [Manual deployment (backend + old UI)](https://docs.blockscout.com/for-developers/deployment/manual-old-ui)
-- [Ansible deployment](https://docs.blockscout.com/for-developers/ansible-deployment)
-- [ENV variables](https://docs.blockscout.com/setup/env-variables)
-- [Configuration options](https://docs.blockscout.com/for-developers/configuration-options)
+STBL Explorer 完全开源，继承 Blockscout 的部署与配置方式。详细部署文档请参考 [Blockscout 官方文档](https://docs.blockscout.com/)。
 
-## Acknowledgements
+---
 
-We would like to thank the EthPrize foundation for their funding support.
+## 许可证
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution and pull request protocol. We expect contributors to follow our [code of conduct](CODE_OF_CONDUCT.md) when submitting code or comments.
-
-## License
-
-[![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+本项目基于 GNU GPL v3.0 协议开源。详情见 [LICENSE](LICENSE) 文件
