@@ -1,4 +1,4 @@
-![Banner](.git/stbl.jpg)
+![Banner](.github/stbl.jpg)
 
 <h1 align="center">STBL Explorer</h1>
 <p align="center">基于 Blockscout 开发的 STBL Layer1 区块链浏览器</p>
